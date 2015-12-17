@@ -7,7 +7,8 @@
  *
  * Contributors:
  *    phrebejk - initial API and implementation and/or initial documentation
- * litte
+ * 
+ *  L2
  */
 package com.tasktop.c2c.server.scm.service.git.repos;
 
