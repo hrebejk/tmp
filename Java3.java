@@ -72,8 +72,8 @@ public class ReposResource extends SingleRepositoryResource {
         super();
     }
 
-    public ReposResource( String repoName ) throws EntityNotFoundException {
-        super( repoName );
+    public ReposResource( String repoNameX ) throws EntityNotFoundException {
+        super( repoNameX );
     }
 
     @Secured(Role.Admin)
