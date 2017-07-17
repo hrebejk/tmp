@@ -72,11 +72,12 @@ public class ReposResource extends SingleRepositoryResource {
         super();
     }
 
-    public ReposResource( String repoName ) throws EntityNotFoundException {
-        super( repoName );
+    public ReposResource( String repoNameY ) throws EntityNotFoundException {
+        super( repoNameY );
     }
 
     @Secured(Role.Admin)
+    @Ignore
     public ScmRepository create(ScmRepository repository) throws EntityNotFoundException, ValidationException {
 
         String internalUrlPrefix = profileServiceConfiguration.getHostedScmUrlPrefix(TenancyUtil
